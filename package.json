@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/weldproc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weld timestamps and proc durations for scripts and CI receipts.",
+  "bin": {
+    "weldproc": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/weldproc.git"
+  },
+  "homepage": "https://theworker02.github.io/weldproc/",
+  "keywords": [
+    "weld",
+    "proc",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
